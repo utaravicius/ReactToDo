@@ -16,6 +16,9 @@
 
 <!-- Load our React component. -->
 <script src="like_button.js"></script>
-
+<script>
+    const domContainer = document.querySelector('#like_button_container');
+    ReactDOM.render(React.createElement(TodoApp, null), domContainer);
+</script>
 </body>
 </html>
